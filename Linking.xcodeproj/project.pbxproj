@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C22B921B965E6000EB2571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C22B911B965E6000EB2571 /* main.m */; };
+		05C22B951B965E6000EB2571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C22B941B965E6000EB2571 /* AppDelegate.m */; };
+		05C22B9D1B965E6000EB2571 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C22B9C1B965E6000EB2571 /* Images.xcassets */; };
+		05C22BA01B965E6000EB2571 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05C22B9E1B965E6000EB2571 /* LaunchScreen.xib */; };
+		05C22BBC1B965E7100EB2571 /* LinkingObjCOnly.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05C22BBB1B965E7100EB2571 /* LinkingObjCOnly.h */; };
+		05C22BD51B965E7C00EB2571 /* LinkingObjCOnly.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05C22BBB1B965E7100EB2571 /* LinkingObjCOnly.h */; };
+		05C22BDF1B965E8300EB2571 /* LinkingObjCOnly.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05C22BBB1B965E7100EB2571 /* LinkingObjCOnly.h */; };
+		05C22BE91B965F2400EB2571 /* CPPButAlsoObjC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05C22BE71B965F2400EB2571 /* CPPButAlsoObjC.cpp */; };
+		05C22BEC1B965F9900EB2571 /* ObjcWithCPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C22BEB1B965F9900EB2571 /* ObjcWithCPP.m */; };
+		05C22BED1B965FD500EB2571 /* LinkingObjCOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C22BBD1B965E7100EB2571 /* LinkingObjCOnly.m */; };
+		05C22BF11B96600300EB2571 /* CPP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05C22BE41B965EA000EB2571 /* CPP.cpp */; };
+		05C22C011B96604400EB2571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C22B941B965E6000EB2571 /* AppDelegate.m */; };
+		05C22C021B96604400EB2571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C22B911B965E6000EB2571 /* main.m */; };
+		05C22C061B96604400EB2571 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05C22B9E1B965E6000EB2571 /* LaunchScreen.xib */; };
+		05C22C071B96604400EB2571 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C22B9C1B965E6000EB2571 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05C22BF21B96601C00EB2571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C22B841B965E6000EB2571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05C22BB81B965E7100EB2571;
+			remoteInfo = LinkingObjCOnly;
+		};
+		05C22BF41B96601C00EB2571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C22B841B965E6000EB2571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05C22BD01B965E7C00EB2571;
+			remoteInfo = LinkingObjCAndCPP;
+		};
+		05C22BF61B96601C00EB2571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C22B841B965E6000EB2571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05C22BDA1B965E8300EB2571;
+			remoteInfo = LinkingCPPOnly;
+		};
+		05C22BFA1B96604400EB2571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C22B841B965E6000EB2571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05C22BB81B965E7100EB2571;
+			remoteInfo = LinkingObjCOnly;
+		};
+		05C22BFC1B96604400EB2571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C22B841B965E6000EB2571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05C22BD01B965E7C00EB2571;
+			remoteInfo = LinkingObjCAndCPP;
+		};
+		05C22BFE1B96604400EB2571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C22B841B965E6000EB2571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05C22BDA1B965E8300EB2571;
+			remoteInfo = LinkingCPPOnly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05C22BB71B965E7100EB2571 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				05C22BBC1B965E7100EB2571 /* LinkingObjCOnly.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C22BD41B965E7C00EB2571 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				05C22BD51B965E7C00EB2571 /* LinkingObjCOnly.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C22BDE1B965E8300EB2571 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				05C22BDF1B965E8300EB2571 /* LinkingObjCOnly.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05C22B8C1B965E6000EB2571 /* Linking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Linking.app; path = Linking_ObjCFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C22B901B965E6000EB2571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C22B911B965E6000EB2571 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05C22B931B965E6000EB2571 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05C22B941B965E6000EB2571 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05C22B9C1B965E6000EB2571 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05C22B9F1B965E6000EB2571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		05C22BB91B965E7100EB2571 /* libLinkingObjCOnly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLinkingObjCOnly.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C22BBB1B965E7100EB2571 /* LinkingObjCOnly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkingObjCOnly.h; sourceTree = "<group>"; };
+		05C22BBD1B965E7100EB2571 /* LinkingObjCOnly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkingObjCOnly.m; sourceTree = "<group>"; };
+		05C22BD91B965E7C00EB2571 /* libLinkingObjCAndCPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLinkingObjCAndCPP.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C22BE31B965E8300EB2571 /* libLinkingCPPOnly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLinkingCPPOnly.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C22BE41B965EA000EB2571 /* CPP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPP.cpp; sourceTree = "<group>"; };
+		05C22BE51B965EA000EB2571 /* CPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPP.h; sourceTree = "<group>"; };
+		05C22BE71B965F2400EB2571 /* CPPButAlsoObjC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPButAlsoObjC.cpp; sourceTree = "<group>"; };
+		05C22BE81B965F2400EB2571 /* CPPButAlsoObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPPButAlsoObjC.h; sourceTree = "<group>"; };
+		05C22BEA1B965F9900EB2571 /* ObjcWithCPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcWithCPP.h; sourceTree = "<group>"; };
+		05C22BEB1B965F9900EB2571 /* ObjcWithCPP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcWithCPP.m; sourceTree = "<group>"; };
+		05C22C0B1B96604400EB2571 /* Linking_ForceLoadFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Linking_ForceLoadFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C22C0C1B96604400EB2571 /* Linking_ForceLoadFlag-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Linking_ForceLoadFlag-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05C22B891B965E6000EB2571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C22BB61B965E7100EB2571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C22BD31B965E7C00EB2571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C22BDD1B965E8300EB2571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C22C031B96604400EB2571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05C22B831B965E6000EB2571 = {
+			isa = PBXGroup;
+			children = (
+				05C22B8E1B965E6000EB2571 /* Linking */,
+				05C22BBA1B965E7100EB2571 /* Classes */,
+				05C22B8D1B965E6000EB2571 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05C22B8D1B965E6000EB2571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05C22B8C1B965E6000EB2571 /* Linking.app */,
+				05C22BB91B965E7100EB2571 /* libLinkingObjCOnly.a */,
+				05C22BD91B965E7C00EB2571 /* libLinkingObjCAndCPP.a */,
+				05C22BE31B965E8300EB2571 /* libLinkingCPPOnly.a */,
+				05C22C0B1B96604400EB2571 /* Linking_ForceLoadFlag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05C22B8E1B965E6000EB2571 /* Linking */ = {
+			isa = PBXGroup;
+			children = (
+				05C22B931B965E6000EB2571 /* AppDelegate.h */,
+				05C22B941B965E6000EB2571 /* AppDelegate.m */,
+				05C22B9C1B965E6000EB2571 /* Images.xcassets */,
+				05C22B9E1B965E6000EB2571 /* LaunchScreen.xib */,
+				05C22B8F1B965E6000EB2571 /* Supporting Files */,
+			);
+			path = Linking;
+			sourceTree = "<group>";
+		};
+		05C22B8F1B965E6000EB2571 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05C22C0C1B96604400EB2571 /* Linking_ForceLoadFlag-Info.plist */,
+				05C22B901B965E6000EB2571 /* Info.plist */,
+				05C22B911B965E6000EB2571 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05C22BBA1B965E7100EB2571 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				05C22BBB1B965E7100EB2571 /* LinkingObjCOnly.h */,
+				05C22BBD1B965E7100EB2571 /* LinkingObjCOnly.m */,
+				05C22BE51B965EA000EB2571 /* CPP.h */,
+				05C22BE41B965EA000EB2571 /* CPP.cpp */,
+				05C22BE81B965F2400EB2571 /* CPPButAlsoObjC.h */,
+				05C22BE71B965F2400EB2571 /* CPPButAlsoObjC.cpp */,
+				05C22BEA1B965F9900EB2571 /* ObjcWithCPP.h */,
+				05C22BEB1B965F9900EB2571 /* ObjcWithCPP.m */,
+			);
+			name = Classes;
+			path = LinkingObjCOnly;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05C22B8B1B965E6000EB2571 /* Linking_ObjCFlag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C22BAF1B965E6000EB2571 /* Build configuration list for PBXNativeTarget "Linking_ObjCFlag" */;
+			buildPhases = (
+				05C22B881B965E6000EB2571 /* Sources */,
+				05C22B891B965E6000EB2571 /* Frameworks */,
+				05C22B8A1B965E6000EB2571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05C22BF31B96601C00EB2571 /* PBXTargetDependency */,
+				05C22BF51B96601C00EB2571 /* PBXTargetDependency */,
+				05C22BF71B96601C00EB2571 /* PBXTargetDependency */,
+			);
+			name = Linking_ObjCFlag;
+			productName = Linking;
+			productReference = 05C22B8C1B965E6000EB2571 /* Linking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05C22BB81B965E7100EB2571 /* LinkingObjCOnly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C22BCA1B965E7100EB2571 /* Build configuration list for PBXNativeTarget "LinkingObjCOnly" */;
+			buildPhases = (
+				05C22BB51B965E7100EB2571 /* Sources */,
+				05C22BB61B965E7100EB2571 /* Frameworks */,
+				05C22BB71B965E7100EB2571 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkingObjCOnly;
+			productName = LinkingObjCOnly;
+			productReference = 05C22BB91B965E7100EB2571 /* libLinkingObjCOnly.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		05C22BD01B965E7C00EB2571 /* LinkingObjCAndCPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C22BD61B965E7C00EB2571 /* Build configuration list for PBXNativeTarget "LinkingObjCAndCPP" */;
+			buildPhases = (
+				05C22BD11B965E7C00EB2571 /* Sources */,
+				05C22BD31B965E7C00EB2571 /* Frameworks */,
+				05C22BD41B965E7C00EB2571 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkingObjCAndCPP;
+			productName = LinkingObjCOnly;
+			productReference = 05C22BD91B965E7C00EB2571 /* libLinkingObjCAndCPP.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		05C22BDA1B965E8300EB2571 /* LinkingCPPOnly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C22BE01B965E8300EB2571 /* Build configuration list for PBXNativeTarget "LinkingCPPOnly" */;
+			buildPhases = (
+				05C22BDB1B965E8300EB2571 /* Sources */,
+				05C22BDD1B965E8300EB2571 /* Frameworks */,
+				05C22BDE1B965E8300EB2571 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkingCPPOnly;
+			productName = LinkingObjCOnly;
+			productReference = 05C22BE31B965E8300EB2571 /* libLinkingCPPOnly.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		05C22BF81B96604400EB2571 /* Linking_ForceLoadFlag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C22C081B96604400EB2571 /* Build configuration list for PBXNativeTarget "Linking_ForceLoadFlag" */;
+			buildPhases = (
+				05C22BFF1B96604400EB2571 /* Sources */,
+				05C22C031B96604400EB2571 /* Frameworks */,
+				05C22C041B96604400EB2571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05C22BF91B96604400EB2571 /* PBXTargetDependency */,
+				05C22BFB1B96604400EB2571 /* PBXTargetDependency */,
+				05C22BFD1B96604400EB2571 /* PBXTargetDependency */,
+			);
+			name = Linking_ForceLoadFlag;
+			productName = Linking;
+			productReference = 05C22C0B1B96604400EB2571 /* Linking_ForceLoadFlag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05C22B841B965E6000EB2571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Google, Inc.";
+				TargetAttributes = {
+					05C22B8B1B965E6000EB2571 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					05C22BB81B965E7100EB2571 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 05C22B871B965E6000EB2571 /* Build configuration list for PBXProject "Linking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05C22B831B965E6000EB2571;
+			productRefGroup = 05C22B8D1B965E6000EB2571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05C22B8B1B965E6000EB2571 /* Linking_ObjCFlag */,
+				05C22BF81B96604400EB2571 /* Linking_ForceLoadFlag */,
+				05C22BB81B965E7100EB2571 /* LinkingObjCOnly */,
+				05C22BD01B965E7C00EB2571 /* LinkingObjCAndCPP */,
+				05C22BDA1B965E8300EB2571 /* LinkingCPPOnly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05C22B8A1B965E6000EB2571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C22BA01B965E6000EB2571 /* LaunchScreen.xib in Resources */,
+				05C22B9D1B965E6000EB2571 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C22C041B96604400EB2571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C22C061B96604400EB2571 /* LaunchScreen.xib in Resources */,
+				05C22C071B96604400EB2571 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05C22B881B965E6000EB2571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C22B951B965E6000EB2571 /* AppDelegate.m in Sources */,
+				05C22B921B965E6000EB2571 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C22BB51B965E7100EB2571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C22BED1B965FD500EB2571 /* LinkingObjCOnly.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C22BD11B965E7C00EB2571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C22BEC1B965F9900EB2571 /* ObjcWithCPP.m in Sources */,
+				05C22BE91B965F2400EB2571 /* CPPButAlsoObjC.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C22BDB1B965E8300EB2571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C22BF11B96600300EB2571 /* CPP.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C22BFF1B96604400EB2571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C22C011B96604400EB2571 /* AppDelegate.m in Sources */,
+				05C22C021B96604400EB2571 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05C22BF31B96601C00EB2571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05C22BB81B965E7100EB2571 /* LinkingObjCOnly */;
+			targetProxy = 05C22BF21B96601C00EB2571 /* PBXContainerItemProxy */;
+		};
+		05C22BF51B96601C00EB2571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05C22BD01B965E7C00EB2571 /* LinkingObjCAndCPP */;
+			targetProxy = 05C22BF41B96601C00EB2571 /* PBXContainerItemProxy */;
+		};
+		05C22BF71B96601C00EB2571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05C22BDA1B965E8300EB2571 /* LinkingCPPOnly */;
+			targetProxy = 05C22BF61B96601C00EB2571 /* PBXContainerItemProxy */;
+		};
+		05C22BF91B96604400EB2571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05C22BB81B965E7100EB2571 /* LinkingObjCOnly */;
+			targetProxy = 05C22BFA1B96604400EB2571 /* PBXContainerItemProxy */;
+		};
+		05C22BFB1B96604400EB2571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05C22BD01B965E7C00EB2571 /* LinkingObjCAndCPP */;
+			targetProxy = 05C22BFC1B96604400EB2571 /* PBXContainerItemProxy */;
+		};
+		05C22BFD1B96604400EB2571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05C22BDA1B965E8300EB2571 /* LinkingCPPOnly */;
+			targetProxy = 05C22BFE1B96604400EB2571 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05C22B9E1B965E6000EB2571 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05C22B9F1B965E6000EB2571 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05C22BAD1B965E6000EB2571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05C22BAE1B965E6000EB2571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05C22BB01B965E6000EB2571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Linking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lLinkingObjCOnly",
+					"-lLinkingObjCAndCPP",
+					"-lLinkingCPPOnly",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05C22BB11B965E6000EB2571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Linking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lLinkingObjCOnly",
+					"-lLinkingObjCAndCPP",
+					"-lLinkingCPPOnly",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05C22BCB1B965E7100EB2571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		05C22BCC1B965E7100EB2571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		05C22BD71B965E7C00EB2571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = LinkingObjCAndCPP;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		05C22BD81B965E7C00EB2571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = LinkingObjCAndCPP;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		05C22BE11B965E8300EB2571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = LinkingCPPOnly;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		05C22BE21B965E8300EB2571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = LinkingCPPOnly;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		05C22C091B96604400EB2571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Linking/Linking_ForceLoadFlag-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(BUILT_PRODUCTS_DIR)/libLinkingObjCOnly.a",
+					"-force_load",
+					"$(BUILT_PRODUCTS_DIR)/libLinkingObjCAndCPP.a",
+					"-lLinkingCPPOnly",
+				);
+				PRODUCT_NAME = Linking_ForceLoadFlag;
+			};
+			name = Debug;
+		};
+		05C22C0A1B96604400EB2571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Linking/Linking_ForceLoadFlag-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(BUILT_PRODUCTS_DIR)/libLinkingObjCOnly.a",
+					"-force_load",
+					"$(BUILT_PRODUCTS_DIR)/libLinkingObjAndCPP.a",
+					"-lLinkingCPPOnly",
+				);
+				PRODUCT_NAME = Linking_ForceLoadFlag;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05C22B871B965E6000EB2571 /* Build configuration list for PBXProject "Linking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C22BAD1B965E6000EB2571 /* Debug */,
+				05C22BAE1B965E6000EB2571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C22BAF1B965E6000EB2571 /* Build configuration list for PBXNativeTarget "Linking_ObjCFlag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C22BB01B965E6000EB2571 /* Debug */,
+				05C22BB11B965E6000EB2571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C22BCA1B965E7100EB2571 /* Build configuration list for PBXNativeTarget "LinkingObjCOnly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C22BCB1B965E7100EB2571 /* Debug */,
+				05C22BCC1B965E7100EB2571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C22BD61B965E7C00EB2571 /* Build configuration list for PBXNativeTarget "LinkingObjCAndCPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C22BD71B965E7C00EB2571 /* Debug */,
+				05C22BD81B965E7C00EB2571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C22BE01B965E8300EB2571 /* Build configuration list for PBXNativeTarget "LinkingCPPOnly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C22BE11B965E8300EB2571 /* Debug */,
+				05C22BE21B965E8300EB2571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C22C081B96604400EB2571 /* Build configuration list for PBXNativeTarget "Linking_ForceLoadFlag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C22C091B96604400EB2571 /* Debug */,
+				05C22C0A1B96604400EB2571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05C22B841B965E6000EB2571 /* Project object */;
+}
